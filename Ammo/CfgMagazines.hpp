@@ -20,4 +20,16 @@ class CfgMagazines
 	{
 		ammo = "BGR_B_5x23_Ball";
 	};
+	class TCP_6Rnd_Internal_Mag;
+	class BGR_10Rnd_Internal_Mag: TCP_6Rnd_Internal_Mag
+	{
+		//ammo = "TCP_B_12Gauge_Slug";
+		ammo = "BGR_B_12Gauge_Pellets_Submunition";
+		count = 10;
+	};
+	class TCP_1Rnd_12Gauge_Shell_Pellets;
+	class BGR_1Rnd_12Gauge_Shell_Pellets: TCP_1Rnd_12Gauge_Shell_Pellets
+	{
+		ammo = "BGR_B_12Gauge_Pellets_Submunition";
+	};
 };
