@@ -1,6 +1,6 @@
 class CfgPatches 
 {
-	class BGR_Weapons_M45
+	class BGR_Weapons_SRS99
 	{
 		units[] = 
         {
@@ -8,7 +8,7 @@ class CfgPatches
         };
 		weapons[] = 
         {
-            "BGR_M45",
+            "BGR_SRS99",
         };
 		requiredVersion = 0.100000;
 		requiredAddons[] = {};
@@ -27,27 +27,15 @@ class Mode_Burst;
 
 class cfgWeapons 
 {
-	class Rifle_Base_F;
-	class TCP_sgun_M45: Rifle_Base_F
+	class TCP_srifle_SRS99;
+	class BGR_SRS99 : TCP_srifle_SRS99
 	{
-		class InternalMagazine: Rifle_Base_F
-		{
-			
-		};
-	};
-	class BGR_M45 : TCP_sgun_M45
-	{
-		cursor = "TCP_sgun_M45";
-		cursoraim = "CursorAim";
 		author = "Ithias";
-		displayName = "[BGR] M45 12G (RFL)";
-		recoil = "recoil_huntershotgun_01";
-		reloadAction = "GestureReloadDMR05";
-		picture = "\TCP\Weapons\Shotguns\M45\data\ui\icon_srifle_M45_X_ca.paa";
-		baseWeapon = "BGR_M45";
+		displayName = "[BGR] SRS99-AM 12.7 mm (MRK)";
+		baseWeapon = "BGR_SRS99";
 		magazines[] = 
 		{
-			"TCP_6Rnd_Internal_Mag",
+			"BGR_4Rnd_127x99_Mag"
 		};
 		magazineWell[] = 
 		{
@@ -56,35 +44,25 @@ class cfgWeapons
 		modes[] = 
 		{
 			"Single",
-			"Single_Close_Optics"
-		};
-		class InternalMagazine: InternalMagazine
-		{
-			magazines[] = 
-			{
-				//"TCP_1Rnd_12Gauge_Shell_Pellets",
-				"BGR_1Rnd_12Gauge_Shell_Pellets",
-			};
-			magazineWell[] = 
-			{
-				
-			};
+			"Single_Close_Optics",
+			"Single_Medium_Optics",
+			"Single_Far_Optics"
 		};
 		class Single: Mode_SemiAuto
 		{
-			reloadTime = 1;
-			dispersion = 0.00145444;
-			minRange = 30;
-			minRangeProbab = 0.25;
-			midRange = 300;
-			midRangeProbab = 0.58;
-			maxRange = 600;
-			maxRangeProbab = 0.04;
+			reloadTime = 0.6;
+			dispersion = 0.000232711;
+			maxRange = 450;
+			maxRangeProbab = 0.3;
+			midRange = 150;
+			midRangeProbab = 0.7;
+			minRange = 2;
+			minRangeProbab = 0.5;
 			soundContinuous = 0;
 			soundBurst = 0;
 			recoil = "recoil_auto_primary_3outof10";
 			recoilProne = "recoil_auto_primary_prone_3outof10";
-			sounds[] = {"StandardSound"};
+			sounds[] = {"StandardSound","SilencedSound"};
 			class BaseSoundModeType
 			{
 				closure1[] = {};
@@ -94,12 +72,12 @@ class cfgWeapons
 			};
 			class StandardSound: BaseSoundModeType
 			{
-				soundSetShot[] = {"TCP_M45_Shot_SoundSet","TCP_M45_tail_SoundSet","TCP_M45_InteriorTail_SoundSet"};
+				soundSetShot[] = {"TCP_SRS99_Shot_SoundSet","TCP_SRS99_tail_SoundSet","TCP_SRS99_InteriorTail_SoundSet"};
 				weaponSoundEffect = "DefaultRifle";
 			};
 			class SilencedSound: BaseSoundModeType
 			{
-				soundSetShot[] = {"TCP_M45Sup_Shot_SoundSet","TCP_M45Sup_tail_SoundSet","TCP_M45Sup_InteriorTail_SoundSet"};
+				soundSetShot[] = {"TCP_SRSSup_Shot_SoundSet","TCP_SRSSup_tail_SoundSet","TCP_SRSSup_InteriorTail_SoundSet"};
 				weaponSoundEffect = "DefaultRifle";
 			};
 		};
@@ -113,10 +91,7 @@ class cfgWeapons
 				iconScale = 0.2;
 				compatibleItems[]=
 				{
-					"TCP_optic_M11VERO_Blue",
-					"TCP_optic_M11VERO",
-					"TCP_optic_M81ERO_Blue",
-					"TCP_optic_M81ERO",
+					"TCP_optic_Oracle_N",
 				};
 			};
 			class MuzzleSlot: MuzzleSlot
@@ -125,7 +100,8 @@ class cfgWeapons
 				iconScale = 0.2;
 				compatibleItems[]=
 				{
-					
+					"TCP_muzzle_brake_127_01",
+					"TCP_muzzle_snds_523_01",
 				};
 			};
 			class PointerSlot: asdg_FrontSideRail
@@ -134,17 +110,28 @@ class cfgWeapons
 				iconScale = 0.2;
 				compatibleItems[]=
 				{
-					"TCP_acc_flashlight_M45",
+					
 				};
 			};
 			class UnderBarrelSlot: UnderBarrelSlot
 			{
 				compatibleItems[]=
 				{
-					"TCP_bipod_sideSaddle_M45_Mixed",
-					"TCP_bipod_sideSaddle_M45_Pellets",
-					"TCP_bipod_sideSaddle_M45_Slugs",
+					
 				};
+			};
+		};
+		class LinkedItems
+		{
+			class LinkedItemsMuzzle
+			{
+				item = "TCP_muzzle_brake_127_01";
+				slot = "MuzzleSlot";
+			};
+			class LinkedItemsOptic
+			{
+				item = "TCP_optic_Oracle_N";
+				slot = "CowsSlot";
 			};
 		};
 	};

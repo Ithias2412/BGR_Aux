@@ -9,6 +9,13 @@ class CfgAmmo
 		suppressionRadiusBulletClose = -1;
 		suppressionRadiusHit = -1;
 	};
+	class BGR_B_762x51_Ball_Suppression: TCP_B_762x51_Ball
+	{
+		caliber = 1;
+		hit = 10;
+		suppressionRadiusBulletClose = 4;
+		suppressionRadiusHit = 4;
+	};
 	class TCP_B_95x40_Ball;
 	class BGR_B_95x40_Ball: TCP_B_95x40_Ball
 	{
@@ -46,6 +53,22 @@ class CfgAmmo
 	{
 		hit = 10;
 		caliber = 1;
+		suppressionRadiusBulletClose = -1;
+		suppressionRadiusHit = -1;
+	};
+	class TCP_B_127x99_Ball;
+	class BGR_B_127x99_Ball: TCP_B_127x99_Ball
+	{
+		caliber = 3;
+		hit = 60;
+		suppressionRadiusBulletClose = -1;
+		suppressionRadiusHit = -1;
+	};
+	class TCP_B_65x48_Ball;
+	class BGR_B_65x48_Ball: TCP_B_65x48_Ball
+	{
+		caliber = 3;
+		hit = 20;
 		suppressionRadiusBulletClose = -1;
 		suppressionRadiusHit = -1;
 	};
