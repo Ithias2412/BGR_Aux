@@ -48,4 +48,9 @@ class CfgMagazines
 	{
 		ammo = "BGR_B_65x48_Ball";
 	};
+	class TCP_2Rnd_102mm_Mag_HEAT;
+	class BGR_2Rnd_102mm_Mag_HEAT: TCP_2Rnd_102mm_Mag_HEAT
+	{
+		ammo = "BGR_M_102mm_HEAT";
+	};
 };

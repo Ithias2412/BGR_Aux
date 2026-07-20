@@ -72,4 +72,9 @@ class CfgAmmo
 		suppressionRadiusBulletClose = -1;
 		suppressionRadiusHit = -1;
 	};
+	class TCP_M_102mm_HEAT;
+	class BGR_M_102mm_HEAT: TCP_M_102mm_HEAT
+	{
+		hit = 125; // was 95
+	};
 };
