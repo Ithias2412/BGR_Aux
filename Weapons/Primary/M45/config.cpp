@@ -11,7 +11,10 @@ class CfgPatches
             "BGR_M45",
         };
 		requiredVersion = 0.100000;
-		requiredAddons[] = {};
+		requiredAddons[] = 
+		{
+			"TCP_Weapons_Shotguns_M45"
+		};
 	};
 };
 

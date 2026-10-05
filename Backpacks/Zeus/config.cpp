@@ -27,7 +27,7 @@ class CfgVehicles
 	class BGR_Zeus_Backpack: TCP_B_ANPRC171_Brown
 	{
 		displayName="[BGR] Zeus Radio Pack";
-		model = "\A3\Weapons_F\DummyBag\dummy.p3d";
+		model = "\A3\Weapons_f\empty";
 		hiddenSelections[] = {};
 		hiddenSelectionsTextures[] = {};
 		class TCP_equipmentTypes

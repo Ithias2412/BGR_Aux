@@ -1,6 +1,6 @@
 class CfgPatches 
 {
-	class BGR_Template
+	class BGR_Backpacks
 	{
 		units[] = 
         {
