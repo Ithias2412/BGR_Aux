@@ -112,7 +112,7 @@ class cfgWeapons
 		displayName="[BGR] ECH35/J Helmet (Desert / Medic)";
 		hiddenSelectionsTextures[] = 
 		{
-			"A:\BGR_Aux\Helmets\Tex\BGR_Helmets_ECH35J_Desert_Medic.paa",
+			"BGR_Aux\Helmets\Tex\BGR_Helmets_ECH35J_Desert_Medic.paa",
 			"\TCP\Characters\BLUFOR\UNSC\Army\Headgear\helmet_ECH35J\data\camo\Blue\helmet_ECH35J_Visor_CO.paa",
 			"\TCP\characters\BLUFOR\UNSC\Army\Vests\M43A\data\camo\black\vest_M43_DecalSheet_CA.paa"
 		};
@@ -134,7 +134,7 @@ class cfgWeapons
 		displayName="[BGR] ECH35/J Helmet (Snow / Medic)";
 		hiddenSelectionsTextures[] = 
 		{
-			"A:\BGR_Aux\Helmets\Tex\BGR_Helmets_ECH35J_Snow_Medic.paa",
+			"BGR_Aux\Helmets\Tex\BGR_Helmets_ECH35J_Snow_Medic.paa",
 			"\TCP\Characters\BLUFOR\UNSC\Army\Headgear\helmet_ECH35J\data\camo\Blue\helmet_ECH35J_Visor_CO.paa",
 			"\TCP\characters\BLUFOR\UNSC\Army\Vests\M43A\data\camo\black\vest_M43_DecalSheet_CA.paa"
 		};
@@ -156,7 +156,7 @@ class cfgWeapons
 		displayName="[BGR] ECH35/J Helmet (Urban / Medic)";
 		hiddenSelectionsTextures[] = 
 		{
-			"A:\BGR_Aux\Helmets\Tex\BGR_Helmets_ECH35J_Urban_Medic.paa",
+			"BGR_Aux\Helmets\Tex\BGR_Helmets_ECH35J_Urban_Medic.paa",
 			"\TCP\Characters\BLUFOR\UNSC\Army\Headgear\helmet_ECH35J\data\camo\Blue\helmet_ECH35J_Visor_CO.paa",
 			"\TCP\characters\BLUFOR\UNSC\Army\Vests\M43A\data\camo\white\vest_M43_DecalSheet_CA.paa"
 		};
@@ -178,7 +178,7 @@ class cfgWeapons
 		displayName="[BGR] ECH35/J Helmet (Woodland / Medic)";
 		hiddenSelectionsTextures[] = 
 		{
-			"A:\BGR_Aux\Helmets\Tex\BGR_Helmets_ECH35J_Woodland_Medic.paa",
+			"BGR_Aux\Helmets\Tex\BGR_Helmets_ECH35J_Woodland_Medic.paa",
 			"\TCP\Characters\BLUFOR\UNSC\Army\Headgear\helmet_ECH35J\data\camo\Blue\helmet_ECH35J_Visor_CO.paa",
 			"\TCP\characters\BLUFOR\UNSC\Army\Vests\M43A\data\camo\black\vest_M43_DecalSheet_CA.paa"
 		};
