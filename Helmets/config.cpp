@@ -18,7 +18,7 @@ class CfgPatches
 	};
 };
 //#include "xtdGear.hpp"
-class cfgWeapons 
+class cfgWeapons
 {
 	class TCP_H_Helmet_ECH35J_Brown_Blue;
 	class BGR_Helmets_ECH35J_Desert: TCP_H_Helmet_ECH35J_Brown_Blue
@@ -102,9 +102,9 @@ class cfgWeapons
 	class BGR_Helmets_ECH35J_Woodland_DP: BGR_Helmets_ECH35J_Woodland
 	{
 		scope = 1;
-	};	
+	};
 	// Medical
-	class BGR_Helmets_ECH35J_Desert_Medic: TCP_H_Helmet_ECH35J_Brown_Blue
+	class BGR_Helmets_ECH35J_Desert_Medic: BGR_Helmets_ECH35J_Desert
 	{
 		ace_arsenal_uniqueBase = "BGR_Helmets_ECH35J_Desert_Medic";
 		author="Ithias";
@@ -192,6 +192,184 @@ class cfgWeapons
 	{
 		scope = 1;
 	};
+	//Gold visors
+	class BGR_Helmets_ECH35J_Desert_Gold: BGR_Helmets_ECH35J_Desert
+	{
+		ace_arsenal_uniqueBase = "BGR_Helmets_ECH35J_Desert";
+		author="Ithias";
+		dlc="BGR Aux";
+		displayName="[BGR] ECH35/J Helmet (Desert)";
+		hiddenSelectionsTextures[] =
+		{
+			"\TCP\Characters\BLUFOR\UNSC\Army\Headgear\helmet_ECH35J\data\camo\Brown\helmet_ECH35J_CO.paa",
+			"\TCP\Characters\BLUFOR\UNSC\Army\Headgear\helmet_ECH35J\data\camo\Gold\helmet_ECH35J_Visor_CO.paa",
+			"\TCP\characters\BLUFOR\UNSC\Army\Vests\M43A\data\camo\black\vest_M43_DecalSheet_CA.paa"
+		};
+		TCP_visrClasses[] =
+		{
+			"BGR_Helmets_ECH35J_Desert",
+			"BGR_Helmets_ECH35J_Desert_DP"
+		};
+	};
+	class BGR_Helmets_ECH35J_Desert_Gold_DP: BGR_Helmets_ECH35J_Desert_Gold
+	{
+		scope = 1;
+	};
+	class BGR_Helmets_ECH35J_Snow_Gold: BGR_Helmets_ECH35J_Desert
+	{
+		ace_arsenal_uniqueBase = "BGR_Helmets_ECH35J_Snow";
+		author="Ithias";
+		dlc="BGR Aux";
+		displayName="[BGR] ECH35/J Helmet (Snow)";
+		hiddenSelectionsTextures[] =
+		{
+			"\TCP\Characters\BLUFOR\UNSC\Army\Headgear\helmet_ECH35J\data\camo\White\helmet_ECH35J_CO.paa",
+			"\TCP\Characters\BLUFOR\UNSC\Army\Headgear\helmet_ECH35J\data\camo\Gold\helmet_ECH35J_Visor_CO.paa",
+			"\TCP\characters\BLUFOR\UNSC\Army\Vests\M43A\data\camo\black\vest_M43_DecalSheet_CA.paa"
+		};
+		TCP_visrClasses[] =
+		{
+			"BGR_Helmets_ECH35J_Snow",
+			"BGR_Helmets_ECH35J_Snow_DP"
+		};
+	};
+	class BGR_Helmets_ECH35J_Snow_Gold_DP: BGR_Helmets_ECH35J_Snow_Gold
+	{
+		scope = 1;
+	};
+	class BGR_Helmets_ECH35J_Urban_Gold: BGR_Helmets_ECH35J_Desert
+	{
+		ace_arsenal_uniqueBase = "BGR_Helmets_ECH35J_Urban";
+		author="Ithias";
+		dlc="BGR Aux";
+		displayName="[BGR] ECH35/J Helmet (Urban)";
+		hiddenSelectionsTextures[] =
+		{
+			"\TCP\Characters\BLUFOR\UNSC\Army\Headgear\helmet_ECH35J\data\camo\Black\helmet_ECH35J_CO.paa",
+			"\TCP\Characters\BLUFOR\UNSC\Army\Headgear\helmet_ECH35J\data\camo\Gold\helmet_ECH35J_Visor_CO.paa",
+			"\TCP\characters\BLUFOR\UNSC\Army\Vests\M43A\data\camo\white\vest_M43_DecalSheet_CA.paa"
+		};
+		TCP_visrClasses[] =
+		{
+			"BGR_Helmets_ECH35J_Urban",
+			"BGR_Helmets_ECH35J_Urban_DP"
+		};
+	};
+	class BGR_Helmets_ECH35J_Urban_Gold_DP: BGR_Helmets_ECH35J_Urban_Gold
+	{
+		scope = 1;
+	};
+	class BGR_Helmets_ECH35J_Woodland_Gold: BGR_Helmets_ECH35J_Desert
+	{
+		ace_arsenal_uniqueBase = "BGR_Helmets_ECH35J_Woodland";
+		author="Ithias";
+		dlc="BGR Aux";
+		displayName="[BGR] ECH35/J Helmet (Woodland)";
+		hiddenSelectionsTextures[] =
+		{
+			"\TCP\Characters\BLUFOR\UNSC\Army\Headgear\helmet_ECH35J\data\camo\Olive\helmet_ECH35J_CO.paa",
+			"\TCP\Characters\BLUFOR\UNSC\Army\Headgear\helmet_ECH35J\data\camo\Gold\helmet_ECH35J_Visor_CO.paa",
+			"\TCP\characters\BLUFOR\UNSC\Army\Vests\M43A\data\camo\black\vest_M43_DecalSheet_CA.paa"
+		};
+		TCP_visrClasses[] =
+		{
+			"BGR_Helmets_ECH35J_Woodland",
+			"BGR_Helmets_ECH35J_Woodland_DP"
+		};
+	};
+	class BGR_Helmets_ECH35J_Woodland_Gold_DP: BGR_Helmets_ECH35J_Woodland_Gold
+	{
+		scope = 1;
+	};
+	// Medical Gold
+	class BGR_Helmets_ECH35J_Desert_Medic_Gold: BGR_Helmets_ECH35J_Desert
+	{
+		ace_arsenal_uniqueBase = "BGR_Helmets_ECH35J_Desert_Medic";
+		author="Ithias";
+		dlc="BGR Aux";
+		displayName="[BGR] ECH35/J Helmet (Desert / Medic)";
+		hiddenSelectionsTextures[] =
+		{
+			"BGR_Aux\Helmets\Tex\BGR_Helmets_ECH35J_Desert_Medic.paa",
+			"\TCP\Characters\BLUFOR\UNSC\Army\Headgear\helmet_ECH35J\data\camo\Gold\helmet_ECH35J_Visor_CO.paa",
+			"\TCP\characters\BLUFOR\UNSC\Army\Vests\M43A\data\camo\black\vest_M43_DecalSheet_CA.paa"
+		};
+		TCP_visrClasses[] =
+		{
+			"BGR_Helmets_ECH35J_Desert_Medic",
+			"BGR_Helmets_ECH35J_Desert_Medic_DP"
+		};
+	};
+	class BGR_Helmets_ECH35J_Desert_Medic_Gold_DP: BGR_Helmets_ECH35J_Desert_Medic_Gold
+	{
+		scope = 1;
+	};
+	class BGR_Helmets_ECH35J_Snow_Medic_Gold: BGR_Helmets_ECH35J_Desert
+	{
+		ace_arsenal_uniqueBase = "BGR_Helmets_ECH35J_Snow_Medic";
+		author="Ithias";
+		dlc="BGR Aux";
+		displayName="[BGR] ECH35/J Helmet (Snow / Medic)";
+		hiddenSelectionsTextures[] =
+		{
+			"BGR_Aux\Helmets\Tex\BGR_Helmets_ECH35J_Snow_Medic.paa",
+			"\TCP\Characters\BLUFOR\UNSC\Army\Headgear\helmet_ECH35J\data\camo\Gold\helmet_ECH35J_Visor_CO.paa",
+			"\TCP\characters\BLUFOR\UNSC\Army\Vests\M43A\data\camo\black\vest_M43_DecalSheet_CA.paa"
+		};
+		TCP_visrClasses[] =
+		{
+			"BGR_Helmets_ECH35J_Snow_Medic",
+			"BGR_Helmets_ECH35J_Snow_Medic_DP"
+		};
+	};
+	class BGR_Helmets_ECH35J_Snow_Medic_Gold_DP: BGR_Helmets_ECH35J_Snow_Medic_Gold
+	{
+		scope = 1;
+	};
+	class BGR_Helmets_ECH35J_Urban_Medic_Gold: BGR_Helmets_ECH35J_Desert
+	{
+		ace_arsenal_uniqueBase = "BGR_Helmets_ECH35J_Urban_Medic";
+		author="Ithias";
+		dlc="BGR Aux";
+		displayName="[BGR] ECH35/J Helmet (Urban / Medic)";
+		hiddenSelectionsTextures[] =
+		{
+			"BGR_Aux\Helmets\Tex\BGR_Helmets_ECH35J_Urban_Medic.paa",
+			"\TCP\Characters\BLUFOR\UNSC\Army\Headgear\helmet_ECH35J\data\camo\Gold\helmet_ECH35J_Visor_CO.paa",
+			"\TCP\characters\BLUFOR\UNSC\Army\Vests\M43A\data\camo\white\vest_M43_DecalSheet_CA.paa"
+		};
+		TCP_visrClasses[] =
+		{
+			"BGR_Helmets_ECH35J_Urban_Medic",
+			"BGR_Helmets_ECH35J_Urban_Medic_DP"
+		};
+	};
+	class BGR_Helmets_ECH35J_Urban_Medic_Gold_DP: BGR_Helmets_ECH35J_Urban_Medic_Gold
+	{
+		scope = 1;
+	};
+	class BGR_Helmets_ECH35J_Woodland_Medic_Gold: BGR_Helmets_ECH35J_Desert
+	{
+		ace_arsenal_uniqueBase = "BGR_Helmets_ECH35J_Woodland_Medic";
+		author="Ithias";
+		dlc="BGR Aux";
+		displayName="[BGR] ECH35/J Helmet (Woodland / Medic)";
+		hiddenSelectionsTextures[] =
+		{
+			"BGR_Aux\Helmets\Tex\BGR_Helmets_ECH35J_Woodland_Medic.paa",
+			"\TCP\Characters\BLUFOR\UNSC\Army\Headgear\helmet_ECH35J\data\camo\Gold\helmet_ECH35J_Visor_CO.paa",
+			"\TCP\characters\BLUFOR\UNSC\Army\Vests\M43A\data\camo\black\vest_M43_DecalSheet_CA.paa"
+		};
+		TCP_visrClasses[] =
+		{
+			"BGR_Helmets_ECH35J_Woodland_Medic",
+			"BGR_Helmets_ECH35J_Woodland_Medic_DP"
+		};
+	};
+	class BGR_Helmets_ECH35J_Woodland_Medic_Gold_DP: BGR_Helmets_ECH35J_Woodland_Medic_Gold
+	{
+		scope = 1;
+	};
 };
 
 class XtdGearModels
@@ -239,7 +417,7 @@ class XtdGearModels
                 label = "Visor";
 				values[] = 
 				{
-					"Blue", 
+					"Blue", "Gold",
 				};
                 changeingame = 0;
                 alwaysSelectable = 1;
@@ -249,6 +427,12 @@ class XtdGearModels
 					//description = "XX";
                     image = "\TCP\Compat_ACEAX\GearInfo\data\camo\blue\glass.paa";
                 };
+            	class Gold
+            	{
+            		label = "Gold";
+            		//description = "XX";
+            		image = "\TCP\Compat_ACEAX\GearInfo\data\camo\Gold\glass.paa";
+            	};
             };
             class Medic
             {
@@ -288,26 +472,17 @@ class XtdGearInfos
             Visor = "Blue";
             Medic = "Default";
         };
-        class BGR_Helmets_ECH35J_Snow
+        class BGR_Helmets_ECH35J_Snow : BGR_Helmets_ECH35J_Desert
         {
-            model = "BGR_Helmets_Ranger_Extended";
             Camo = "Snow";
-            Visor = "Blue";
-            Medic = "Default";
         };
-        class BGR_Helmets_ECH35J_Urban
+        class BGR_Helmets_ECH35J_Urban : BGR_Helmets_ECH35J_Desert
         {
-            model = "BGR_Helmets_Ranger_Extended";
-            Camo = "Urban";
-            Visor = "Blue";
-            Medic = "Default";
+        	Camo = "Urban";
         };
-        class BGR_Helmets_ECH35J_Woodland
+        class BGR_Helmets_ECH35J_Woodland : BGR_Helmets_ECH35J_Desert
         {
-            model = "BGR_Helmets_Ranger_Extended";
-            Camo = "Woodland";
-            Visor = "Blue";
-            Medic = "Default";
+        	Camo = "Woodland";
         };
 		// Medical
         class BGR_Helmets_ECH35J_Desert_Medic
@@ -317,26 +492,51 @@ class XtdGearInfos
             Visor = "Blue";
             Medic = "Medic";
         };
-        class BGR_Helmets_ECH35J_Snow_Medic
+        class BGR_Helmets_ECH35J_Snow_Medic : BGR_Helmets_ECH35J_Desert_Medic
         {
-            model = "BGR_Helmets_Ranger_Extended";
             Camo = "Snow";
-            Visor = "Blue";
-            Medic = "Medic";
         };
-        class BGR_Helmets_ECH35J_Urban_Medic
+        class BGR_Helmets_ECH35J_Urban_Medic : BGR_Helmets_ECH35J_Desert_Medic
         {
-            model = "BGR_Helmets_Ranger_Extended";
-            Camo = "Urban";
-            Visor = "Blue";
-            Medic = "Medic";
+        	Camo = "Urban";
         };
-        class BGR_Helmets_ECH35J_Woodland_Medic
+        class BGR_Helmets_ECH35J_Woodland_Medic : BGR_Helmets_ECH35J_Desert_Medic
         {
-            model = "BGR_Helmets_Ranger_Extended";
-            Camo = "Woodland";
-            Visor = "Blue";
-            Medic = "Medic";
+        	Camo = "Woodland";
         };
+    	//Gold Visor
+    	class BGR_Helmets_ECH35J_Desert_Gold : BGR_Helmets_ECH35J_Desert
+    	{
+    		Visor = "Gold";
+    	};
+    	class BGR_Helmets_ECH35J_Snow_Gold : BGR_Helmets_ECH35J_Desert_Gold
+    	{
+    		Camo = "Snow";
+    	};
+    	class BGR_Helmets_ECH35J_Urban_Gold : BGR_Helmets_ECH35J_Desert_Gold
+    	{
+    		Camo = "Urban";
+		};
+    	class BGR_Helmets_ECH35J_Woodland_Gold : BGR_Helmets_ECH35J_Desert_Gold
+    	{
+    		Camo = "Woodland";
+    	};
+    	// Medical gold
+    	class BGR_Helmets_ECH35J_Desert_Medic_Gold : BGR_Helmets_ECH35J_Desert_Medic
+    	{
+    		Visor = "Gold";
+    	};
+    	class BGR_Helmets_ECH35J_Snow_Medic_Gold : BGR_Helmets_ECH35J_Desert_Medic_Gold
+    	{
+    		Camo = "Snow";
+    	};
+    	class BGR_Helmets_ECH35J_Urban_Medic_Gold : BGR_Helmets_ECH35J_Desert_Medic_Gold
+    	{
+    		Camo = "Urban";
+    	};
+    	class BGR_Helmets_ECH35J_Woodland_Medic_Gold : BGR_Helmets_ECH35J_Desert_Medic_Gold
+    	{
+    		Camo = "Woodland";
+    	};
 	};
 };
