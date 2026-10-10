@@ -4763,65 +4763,353 @@ class cfgVehicles
     };
     class BGR_Uniforms_CBUU_Desert_FT_Half_Kneepads_V : BGR_Uniforms_CBUU_Desert_FT_V
     {
-        ItemInfo : ItemInfo
+        hiddenSelections[] =
         {
-
+            "camo",
+            "camo1",
+            "camo2",
+            "insignia",
+            "clan",
+            "shirtClosed",
+            "sleeve3Quarter",
+            "sleeve3QuarterRoll",
+            "sleeveQuarter",
+            "sleeveQuarterRoll",
+            "sleeveSlim",
+            "sleeveFull",
+            "gloves",
+            "pantssknees",
+            "pantsBloused",
+            "nameM43A",
+            "nameM43D",
+            "nameCH43A",
+            "affiliationBaseSec",
+            "affiliationGungnirS",
+            "affiliationGungnirL",
+            "affiliationODST",
+            "affiliationPatrolCap",
+            "affiliationUtilityCap",
+            "affiliationUtilityCover",
+            "rankM43A",
+            "rankM43D",
+            "bloodTypeBaseSec",
+            "bloodTypeGungnirS",
+            "bloodTypeGungnirL",
+            "bloodTypeODST",
+            "bloodTypeBREACHER",
+            "bloodTypeSHARPSHOOTER"
         };
     };
     class BGR_Uniforms_CBUU_Desert_FT_Half_Gloves_Bloused_V : BGR_Uniforms_CBUU_Desert_FT_V
     {
-        ItemInfo : ItemInfo
+        hiddenSelections[] =
         {
-
+            "camo",
+            "camo1",
+            "camo2",
+            "insignia",
+            "clan",
+            "shirtClosed",
+            "sleeve3Quarter",
+            "sleeve3QuarterRoll",
+            "sleeveQuarter",
+            "sleeveQuarterRoll",
+            "sleeveSlim",
+            "sleeveFull",
+            "hands",
+            "pantshknees",
+            "pantsUnbloused",
+            "nameM43A",
+            "nameM43D",
+            "nameCH43A",
+            "affiliationBaseSec",
+            "affiliationGungnirS",
+            "affiliationGungnirL",
+            "affiliationODST",
+            "affiliationPatrolCap",
+            "affiliationUtilityCap",
+            "affiliationUtilityCover",
+            "rankM43A",
+            "rankM43D",
+            "bloodTypeBaseSec",
+            "bloodTypeGungnirS",
+            "bloodTypeGungnirL",
+            "bloodTypeODST",
+            "bloodTypeBREACHER",
+            "bloodTypeSHARPSHOOTER"
         };
     };
     class BGR_Uniforms_CBUU_Desert_FT_Half_Gloves_Kneepads_V : BGR_Uniforms_CBUU_Desert_FT_V
     {
-        ItemInfo : ItemInfo
+        hiddenSelections[] =
         {
-
+            "camo",
+            "camo1",
+            "camo2",
+            "insignia",
+            "clan",
+            "shirtClosed",
+            "sleeve3Quarter",
+            "sleeve3QuarterRoll",
+            "sleeveQuarter",
+            "sleeveQuarterRoll",
+            "sleeveSlim",
+            "sleeveFull",
+            "hands",
+            "pantssknees",
+            "pantsBloused",
+            "nameM43A",
+            "nameM43D",
+            "nameCH43A",
+            "affiliationBaseSec",
+            "affiliationGungnirS",
+            "affiliationGungnirL",
+            "affiliationODST",
+            "affiliationPatrolCap",
+            "affiliationUtilityCap",
+            "affiliationUtilityCover",
+            "rankM43A",
+            "rankM43D",
+            "bloodTypeBaseSec",
+            "bloodTypeGungnirS",
+            "bloodTypeGungnirL",
+            "bloodTypeODST",
+            "bloodTypeBREACHER",
+            "bloodTypeSHARPSHOOTER"
         };
     };
     class BGR_Uniforms_CBUU_Desert_FT_Half_Gloves_Bloused_Kneepads_V : BGR_Uniforms_CBUU_Desert_FT_V
     {
-        ItemInfo : ItemInfo
+        hiddenSelections[] =
         {
-
+            "camo",
+            "camo1",
+            "camo2",
+            "insignia",
+            "clan",
+            "shirtClosed",
+            "sleeve3Quarter",
+            "sleeve3QuarterRoll",
+            "sleeveQuarter",
+            "sleeveQuarterRoll",
+            "sleeveSlim",
+            "sleeveFull",
+            "hands",
+            "pantssknees",
+            "pantsUnbloused",
+            "nameM43A",
+            "nameM43D",
+            "nameCH43A",
+            "affiliationBaseSec",
+            "affiliationGungnirS",
+            "affiliationGungnirL",
+            "affiliationODST",
+            "affiliationPatrolCap",
+            "affiliationUtilityCap",
+            "affiliationUtilityCover",
+            "rankM43A",
+            "rankM43D",
+            "bloodTypeBaseSec",
+            "bloodTypeGungnirS",
+            "bloodTypeGungnirL",
+            "bloodTypeODST",
+            "bloodTypeBREACHER",
+            "bloodTypeSHARPSHOOTER"
         };
     };
     class BGR_Uniforms_CBUU_Desert_FT_Half_Bloused_Kneepads_V : BGR_Uniforms_CBUU_Desert_FT_V
     {
-        ItemInfo : ItemInfo
+        hiddenSelections[] =
         {
-
+            "camo",
+            "camo1",
+            "camo2",
+            "insignia",
+            "clan",
+            "shirtClosed",
+            "sleeve3Quarter",
+            "sleeve3QuarterRoll",
+            "sleeveQuarter",
+            "sleeveQuarterRoll",
+            "sleeveSlim",
+            "sleeveFull",
+            "gloves",
+            "pantssknees",
+            "pantsUnbloused",
+            "nameM43A",
+            "nameM43D",
+            "nameCH43A",
+            "affiliationBaseSec",
+            "affiliationGungnirS",
+            "affiliationGungnirL",
+            "affiliationODST",
+            "affiliationPatrolCap",
+            "affiliationUtilityCap",
+            "affiliationUtilityCover",
+            "rankM43A",
+            "rankM43D",
+            "bloodTypeBaseSec",
+            "bloodTypeGungnirS",
+            "bloodTypeGungnirL",
+            "bloodTypeODST",
+            "bloodTypeBREACHER",
+            "bloodTypeSHARPSHOOTER"
         };
     };
     class BGR_Uniforms_CBUU_Desert_FT_Gloves_Bloused_V : BGR_Uniforms_CBUU_Desert_FT_V
     {
-        ItemInfo : ItemInfo
+        hiddenSelections[] =
         {
-
+            "camo",
+            "camo1",
+            "camo2",
+            "insignia",
+            "clan",
+            "shirtClosed",
+            "sleeve3QuarterRoll",
+            "sleeveHalfRoll",
+            "sleeveQuarterRoll",
+            "sleeveSlim",
+            "hands",
+            "foreArms",
+            "upperArms",
+            "pantshknees",
+            "pantsUnbloused",
+            "nameM43A",
+            "nameM43D",
+            "nameCH43A",
+            "affiliationBaseSec",
+            "affiliationGungnirS",
+            "affiliationGungnirL",
+            "affiliationODST",
+            "affiliationPatrolCap",
+            "affiliationUtilityCap",
+            "affiliationUtilityCover",
+            "rankM43A",
+            "rankM43D",
+            "bloodTypeBaseSec",
+            "bloodTypeGungnirS",
+            "bloodTypeGungnirL",
+            "bloodTypeODST",
+            "bloodTypeBREACHER",
+            "bloodTypeSHARPSHOOTER"
         };
     };
     class BGR_Uniforms_CBUU_Desert_FT_Gloves_Kneepads_V : BGR_Uniforms_CBUU_Desert_FT_V
     {
-        ItemInfo : ItemInfo
+        hiddenSelections[] =
         {
-
+            "camo",
+            "camo1",
+            "camo2",
+            "insignia",
+            "clan",
+            "shirtClosed",
+            "sleeve3QuarterRoll",
+            "sleeveHalfRoll",
+            "sleeveQuarterRoll",
+            "sleeveSlim",
+            "hands",
+            "foreArms",
+            "upperArms",
+            "pantssknees",
+            "pantsBloused",
+            "nameM43A",
+            "nameM43D",
+            "nameCH43A",
+            "affiliationBaseSec",
+            "affiliationGungnirS",
+            "affiliationGungnirL",
+            "affiliationODST",
+            "affiliationPatrolCap",
+            "affiliationUtilityCap",
+            "affiliationUtilityCover",
+            "rankM43A",
+            "rankM43D",
+            "bloodTypeBaseSec",
+            "bloodTypeGungnirS",
+            "bloodTypeGungnirL",
+            "bloodTypeODST",
+            "bloodTypeBREACHER",
+            "bloodTypeSHARPSHOOTER"
         };
     };
     class BGR_Uniforms_CBUU_Desert_FT_Gloves_Bloused_Kneepads_V : BGR_Uniforms_CBUU_Desert_FT_V
     {
-        ItemInfo : ItemInfo
+        hiddenSelections[] =
         {
-
+            "camo",
+            "camo1",
+            "camo2",
+            "insignia",
+            "clan",
+            "shirtClosed",
+            "sleeve3QuarterRoll",
+            "sleeveHalfRoll",
+            "sleeveQuarterRoll",
+            "sleeveSlim",
+            "hands",
+            "foreArms",
+            "upperArms",
+            "pantssknees",
+            "pantsUnbloused",
+            "nameM43A",
+            "nameM43D",
+            "nameCH43A",
+            "affiliationBaseSec",
+            "affiliationGungnirS",
+            "affiliationGungnirL",
+            "affiliationODST",
+            "affiliationPatrolCap",
+            "affiliationUtilityCap",
+            "affiliationUtilityCover",
+            "rankM43A",
+            "rankM43D",
+            "bloodTypeBaseSec",
+            "bloodTypeGungnirS",
+            "bloodTypeGungnirL",
+            "bloodTypeODST",
+            "bloodTypeBREACHER",
+            "bloodTypeSHARPSHOOTER"
         };
     };
     class BGR_Uniforms_CBUU_Desert_FT_Bloused_Kneepads_V : BGR_Uniforms_CBUU_Desert_FT_V
     {
-        ItemInfo : ItemInfo
+        hiddenSelections[] =
         {
-
+            "camo",
+            "camo1",
+            "camo2",
+            "insignia",
+            "clan",
+            "shirtClosed",
+            "sleeve3QuarterRoll",
+            "sleeveHalfRoll",
+            "sleeveQuarterRoll",
+            "sleeveSlim",
+            "gloves",
+            "foreArms",
+            "upperArms",
+            "pantssknees",
+            "pantsUnbloused",
+            "nameM43A",
+            "nameM43D",
+            "nameCH43A",
+            "affiliationBaseSec",
+            "affiliationGungnirS",
+            "affiliationGungnirL",
+            "affiliationODST",
+            "affiliationPatrolCap",
+            "affiliationUtilityCap",
+            "affiliationUtilityCover",
+            "rankM43A",
+            "rankM43D",
+            "bloodTypeBaseSec",
+            "bloodTypeGungnirS",
+            "bloodTypeGungnirL",
+            "bloodTypeODST",
+            "bloodTypeBREACHER",
+            "bloodTypeSHARPSHOOTER"
         };
     };
 
